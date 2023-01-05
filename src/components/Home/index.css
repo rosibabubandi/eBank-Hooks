@@ -1,0 +1,43 @@
+.home-main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #183b56;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+}
+.home-header-container {
+  width: 95vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  align-self: flex-start;
+}
+.website-logo {
+  height: 70px;
+  width: 200px;
+}
+.logout-button {
+  height: 35px;
+  width: 75px;
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  font-family: 'Roboto';
+  color: #ffffff;
+  cursor: pointer;
+}
+.home-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 40px;
+}
+.card-image {
+  height: 60vh;
+  width: 60vw;
+}
